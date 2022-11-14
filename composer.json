@@ -1,0 +1,27 @@
+{
+  "name": "ioncurly/cbr-converter",
+  "description": "Simple CBR currency converter. Testing/studying purposes",
+  "minimum-stability": "stable",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/ionov-e/",
+  "authors": [
+    {
+      "name": "Eugene Ionov",
+      "email": "ioncurly@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:ionov-e/cbr-converter.git"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "CbrConverter\\": "src/"
+    }
+  }
+}
