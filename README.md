@@ -7,6 +7,12 @@ It uses CBR's XML file with currency rates
 
 This XML file (updated daily) is used: https://www.cbr.ru/scripts/XML_daily.asp
 
+## Installation
+
+Run this command in your project
+
+`composer require ioncurly/cbr-converter:dev-main`
+
 ## Usage
 
 `$exchange = new Exchange("USD", "UAH", 100);`
